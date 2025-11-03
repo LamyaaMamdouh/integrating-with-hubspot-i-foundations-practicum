@@ -1,58 +1,76 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
-body, * {
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f9fc;
+    color: #333;
+    margin: 20px;
 }
 
 h1 {
-    margin: 1rem;
+    color: #2c3e50;
 }
 
-.cards {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+a {
+    display: inline-block;
+    margin-bottom: 15px;
+    text-decoration: none;
+    color: #3498db;
 }
 
-.card {
-    flex-basis: 31%;
-    margin: 1rem 0.4rem;
-    padding: 1rem 0.4rem 2.5rem 0.4rem;
-    border: solid 1px lightgrey;
-    border-radius: 15px;
-    box-shadow: 3px 2px 6px lightgrey;
+a:hover {
+    text-decoration: underline;
 }
 
-.card__email {
-    font-size: 1rem;
-}
-
-.form-wrapper {
-    font-size: 18px;
-    max-width: 768px;
-    margin: 2rem auto;
-    padding: 2rem;
-    border: solid 1px lightgrey;
-    border-radius: 15px;
-    box-shadow: 3px 2px 6px lightgrey;
-}
-
-label, input {
-    margin-top: 5px;
-    display: block;
-    font-size: inherit;
-}
-
-input[type="text"] {
-    padding: .25rem;
-}
-
-input[type="submit"] {
-    background-color: lightgrey;
-    border: none;
-    padding: .375rem 1rem;
+table {
+    width: 100%;
+    border-collapse: collapse;
     margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #3498db;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    max-width: 400px;
+    border-radius: 8px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9;
 }
