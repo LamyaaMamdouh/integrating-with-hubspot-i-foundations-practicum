@@ -4,15 +4,16 @@ This repository is for the Integrating With HubSpot I: Foundations course. This 
 
 To read the full directions, please go to the [practicum instructions](https://app.hubspot.com/academy/l/tracks/1092124/1093824/5493?language=en).
 
-**Put your HubSpot developer test account custom objects URL link here:** https://app.hubspot.com/contacts/l/objects/${custom-obj-number}/views/all/list
+*Put your HubSpot developer test account custom objects URL link here:*  
+[View Hobbies List](https://app-eu1.hubspot.com/contacts/147188049/objects/2-194157684/views/all/list)
 
-___
+---
+
 ## Tips:
 - Commit to your repository often. Even if you make small tweaks to your code, it’s best to be committing to your repository frequently.
 - The subject of the custom object is up to you. Feel free to get creative!
-- Please create a test account and include your private app access token in your repo.
+- DO NOT ADD YOUR PRIVATE APP TOKEN TO YOUR REPOSITORY.
 - Ensure you re-merge any working branches into the main branch.
-- DO NOT ADD YOUR PRIVATE APP TOKEN TO YOUR REPOSITORY. 
 
 ## Pre-requisites:
 - Using [Node](https://nodejs.org/en/download) and node packages
